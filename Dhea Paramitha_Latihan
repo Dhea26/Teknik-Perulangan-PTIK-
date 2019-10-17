@@ -1,0 +1,22 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main (){
+int p,q,r,s;
+cout<<"Masukan Jumlah Baris: ";
+cin>>s;
+for(p=s; p>=0; p--){
+for (q=p; q>=0; q--){
+cout<<"";
+}
+for(r=1; r<=s-p; r++){
+cout<<"*";
+}
+for(r=1; r<s-p; r++){
+cout<<"*";
+}
+cout<<endl;
+}
+_getche ();
+return 0;
+}
